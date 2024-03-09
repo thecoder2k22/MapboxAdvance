@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/map_frag"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_map"
+
+        android:title="Map" />
+    <item
+        android:id="@+id/saved_frag"
+        android:icon="@drawable/ic_fav"
+        app:showAsAction="ifRoom"
+        android:title="Saved"
+
+
+        />
+</menu>

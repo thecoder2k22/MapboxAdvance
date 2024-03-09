@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/round_btn"
+    android:gravity="center_horizontal"
+    android:paddingVertical="@dimen/_20sdp"
+    android:layout_marginHorizontal="@dimen/_20sdp"
+    android:layout_height="wrap_content">
+    <!-- just Linear layout for a simple ui-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/tv_bold"
+        android:text="Saving Location"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/white"
+
+        />
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:indeterminateTint="@color/white"
+        android:layout_marginTop="@dimen/_20sdp"
+        />
+</LinearLayout>

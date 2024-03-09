@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Maps - TheItZon</string>
+    <string name="cancel">Cancel</string>
+    <string name="allow">Allow</string>
+    <string name="location_msg">Location permission is required to show places around you</string>
+    <string name="perm_required">Permission required</string>
+    <string name="denied_msg">You have denied location permission mutiple times, to access your location on map, please allow location permission on settings page</string>
+    <string name="okay">Okay</string>
+    <string name="gps_disabled">GPS disabled</string>
+    <string name="enable_gps_msg">Please enable location in settings to access your location on map</string>
+    <string name="close">Close</string>
+    <string name="share">Share</string>
+    <string name="latitude_longitude">Latitude / longitude</string>
+    <string name="name">name</string>
+    <string name="location_info">Location Info</string>
+    <string name="exit_msg">Do you want to exit app</string>
+    <string name="exit_app">Exit App</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="saved_places">Saved places</string>
+</resources>

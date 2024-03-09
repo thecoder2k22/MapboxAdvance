@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#E3E5E4"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_90sdp"
+        android:src="@drawable/it_zone_logo"
+        android:layout_centerInParent="true"
+        android:id="@+id/iv"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv"
+        android:layout_below="@id/iv"
+        android:layout_centerHorizontal="true"
+        android:text="Maps"
+        style="@style/tv_bold"
+        android:layout_marginTop="@dimen/_5sdp"
+        />
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:indeterminateTint="@color/main_color"
+        android:layout_centerHorizontal="true"
+
+        android:layout_above="@id/tv2"
+        android:layout_marginBottom="@dimen/_10sdp"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv2"
+
+        android:textColor="@color/gray"
+        android:layout_centerHorizontal="true"
+        android:text="Maps Task by Faheem"
+        android:layout_alignParentBottom="true"
+        style="@style/tv_normal"
+        android:layout_marginBottom="@dimen/_15sdp"
+        />
+</RelativeLayout>
