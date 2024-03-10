@@ -11,9 +11,9 @@
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/launcher_temp"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/launcher_temp"
         android:supportsRtl="true"
         android:theme="@style/Theme.MapsTask_TheItZone"
         android:enableOnBackInvokedCallback="true"
@@ -34,9 +34,7 @@
         <activity android:name=".ui.ActivityHome"
             android:exported="false"
            />
-        <meta-data
-            android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyAB7ft_C9mSzlBaMJ_VaQQ1Gr-OhwV0Q_I" />
+
     </application>
 
 </manifest>

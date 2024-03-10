@@ -83,7 +83,7 @@ class FragmentMaps:Fragment() {
                 }
 
 
-                Toast.makeText(requireContext(),"Total "+value.size,Toast.LENGTH_SHORT).show()
+
 
                 // we  dont need it anymore
                 livedata.removeObserver(this)
